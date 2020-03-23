@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     
     private Rigidbody rig;
-
+    private AudioSource audioSource;
+        
     private void Awake()
     {
         //get the Rigidbody component
         rig = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -72,16 +74,18 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            
+            GameManager.instance.GameOver();
         }
-
-        if (other.CompareTag("Coin"))
+        else if (other.CompareTag("Coin"))
         {
             // add score
             Destroy(other.gameObject);
+            audioSource.Play();
+            GameManager.instance.AddScore(1);
         }
-        
-        
+        else if (other.CompareTag("Goal"))
+        {
+            GameManager.instance.LevelEnd();
+        }
     }
 }
