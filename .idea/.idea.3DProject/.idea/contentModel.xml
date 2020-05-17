@@ -1,22 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\rocks\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\rocks\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_3DProject.-1119341057.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rocks\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rocks\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_3DProject.-1119341057.00" t="ExcludeRecursive" />
     <e p="C:\Users\rocks\RiderProjects\3DProject" t="IncludeRecursive">
       <e p="3DProject.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="HotTotemAssets" t="Include">
+          <e p="GhostToolPro" t="Include">
+            <e p="Code" t="Include">
+              <e p="2D" t="Include">
+                <e p="Core" t="Include">
+                  <e p="GhostTool2D.cs" t="Include" />
+                </e>
+                <e p="Helpers" t="Include">
+                  <e p="Ghostable2D.cs" t="Include" />
+                  <e p="GhostObject2D.cs" t="Include" />
+                  <e p="GhostTool2DAnalyzer.cs" t="Include" />
+                  <e p="GhostTransform2D.cs" t="Include" />
+                </e>
+                <e p="Recording" t="Include">
+                  <e p="GhostRecordContainer2D.cs" t="Include" />
+                  <e p="GhostRecordHandler2D.cs" t="Include" />
+                  <e p="GhostRecordStruct2D.cs" t="Include" />
+                </e>
+                <e p="Replaying" t="Include">
+                  <e p="GhostReplayContainer2D.cs" t="Include" />
+                  <e p="GhostReplayHandler2D.cs" t="Include" />
+                  <e p="GhostReplayStruct2D.cs" t="Include" />
+                </e>
+                <e p="SaveAndLoad" t="Include">
+                  <e p="GhostDataHandler2D.cs" t="Include" />
+                  <e p="GhostSaveHelper2D.cs" t="Include" />
+                </e>
+              </e>
+              <e p="3D" t="Include">
+                <e p="Core" t="Include">
+                  <e p="GhostTool.cs" t="Include" />
+                </e>
+                <e p="Helpers" t="Include">
+                  <e p="Ghostable.cs" t="Include" />
+                  <e p="GhostBlendShape.cs" t="Include" />
+                  <e p="GhostBone.cs" t="Include" />
+                  <e p="GhostObject.cs" t="Include" />
+                  <e p="GhostTransform.cs" t="Include" />
+                </e>
+                <e p="Recording" t="Include">
+                  <e p="GhostRecordContainer.cs" t="Include" />
+                  <e p="GhostRecordHandler.cs" t="Include" />
+                  <e p="GhostRecordStruct.cs" t="Include" />
+                </e>
+                <e p="Replaying" t="Include">
+                  <e p="GhostReplayContainer.cs" t="Include" />
+                  <e p="GhostReplayHandler.cs" t="Include" />
+                  <e p="GhostReplayStruct.cs" t="Include" />
+                </e>
+                <e p="SaveAndLoad" t="Include">
+                  <e p="GhostDataHandler.cs" t="Include" />
+                  <e p="GhostSaveHelper.cs" t="Include" />
+                  <e p="VectorSerializationSurrogate.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Example Scenes" t="Include">
+              <e p="Code" t="Include">
+                <e p="ButtonTest.cs" t="Include" />
+                <e p="ButtonTest2D.cs" t="Include" />
+                <e p="CarController.cs" t="Include" />
+                <e p="CharacterControllerDemo.cs" t="Include" />
+                <e p="GoalController.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="ProBuilder" t="Include">
+            <e p="4.2.3" t="Include">
+              <e p="Editor Examples" t="Include">
+                <e p="ClearUnusedAttributes.cs" t="Include" />
+                <e p="CreateShadowObject.cs" t="Include" />
+                <e p="CustomAction.cs" t="Include" />
+                <e p="EditorCallbackViewer.cs" t="Include" />
+                <e p="RenameNewObjects.cs" t="Include" />
+                <e p="SetCustomUnwrapParams.cs" t="Include" />
+                <e p="Unity.ProBuilder.Examples.Editor.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="CoinController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="GameUI.cs" t="Include" />
+          <e p="MenuUI.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+        </e>
+        <e p="SpeedTutor_Full_Menu_System" t="Include">
+          <e p="GUI Elements" t="Include">
+            <e p="UI_BrightnessShader" t="Include">
+              <e p="Brightness.cs" t="Include" />
+              <e p="BrightnessEffect.shader" t="Include" />
+            </e>
+          </e>
+          <e p="MenuScripts" t="Include">
+            <e p="Init_LoadPreferences.cs" t="Include" />
+            <e p="MenuController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Unity.ProBuilder.Examples.Editor.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
