@@ -17,7 +17,7 @@ jobs:
         
         # Build Windows and OSX
         - name: Build WebGL Player
-          run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -projectPath . -buildTarget WebGL ./bin-web/3DProject
+          run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -projectPath . -buildTarget WebGL ./WebGLversion/3DProject
         # - name: Build OSX Player
         #   run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -projectPath . -buildOSXUniversalPlayer ./bin-osx/3DProject.app      
         
@@ -25,7 +25,7 @@ jobs:
           uses: actions/upload-artifact@v1
           with:
             name: 3DProjectWebBinary
-            path: ./bin-web
+            path: ./WebGLversion/3DProject
 
         # - name: Archive Mac Build
         #   uses: actions/upload-artifact@v1
